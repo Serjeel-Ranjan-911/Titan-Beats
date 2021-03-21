@@ -203,3 +203,29 @@ body {
     width: 0;
     filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
 }
+
+//////////////////////////
+#thefile {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+audio {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+#content {
+    z-index: 1000;
+}

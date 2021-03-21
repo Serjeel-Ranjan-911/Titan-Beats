@@ -105,14 +105,14 @@ anime({
 });
 
 //animaing sun
-anime({
-    targets: "[class*='sun--']",
-    scale: anime.stagger([1.5, 2]),
-    delay: anime.stagger(300, { from: "last" }),
-    loop: true,
-    direction: "alternate",
-    easing: "easeInOutQuad",
-});
+// anime({
+//     targets: "[class*='sun--']",
+//     scale: anime.stagger([1.5, 2]),
+//     delay: anime.stagger(300, { from: "last" }),
+//     loop: true,
+//     direction: "alternate",
+//     easing: "easeInOutQuad",
+// });
 
 //animating mist
 

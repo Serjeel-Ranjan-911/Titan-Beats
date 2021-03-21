@@ -37,4 +37,4 @@ const spawnShootingStar = () => {
     });
 };
 
-setInterval(spawnShootingStar, 10000);
+setInterval(spawnShootingStar, 20000);
