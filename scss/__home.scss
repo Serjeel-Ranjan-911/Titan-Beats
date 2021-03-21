@@ -94,14 +94,28 @@ body {
         height: 100%;
         position: absolute;
     }
-    &--1 {
-        transform: scale(1);
+    // &--1 {
+    //     transform: scale(1);
+    // }
+    // &--2 {
+    //     transform: scale(1.2);
+    // }
+    // &--3 {
+    //     transform: scale(1.4);
+    // }
+
+    @media only screen and (max-width: 600px) {
+        width: 15rem;
+        height: 15rem;
     }
-    &--2 {
-        transform: scale(1.2);
+    @media only screen and (max-width: 400px) {
+        width: 10rem;
+        height: 10rem;
     }
-    &--3 {
-        transform: scale(1.4);
+
+    @media only screen and (max-width: 900px) and (orientation: landscape) {
+        width: 10rem;
+        height: 10rem;
     }
 }
 
@@ -154,6 +168,16 @@ body {
         left: -20%;
         top: 30%;
         transform: scale(1);
+    }
+    @media only screen and (max-width: 600px) {
+        height: 15rem;
+    }
+    @media only screen and (max-width: 400px) {
+        height: 10rem;
+    }
+    @media only screen and (max-width: 900px) and (orientation: landscape) {
+        width: 10rem;
+        height: 10rem;
     }
 }
 
