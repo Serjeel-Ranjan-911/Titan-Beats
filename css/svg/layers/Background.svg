@@ -1,0 +1,22 @@
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns3="http://www.w3.org/1999/xlink" xmlns:ns5="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" height="1080" id="svg8" version="1.1" viewBox="0 0 508 285.75001" width="1920" ns2:docname="drawing.svg" ns1:export-filename="D:\WALLPAPER\desert vector.png" ns1:export-xdpi="69" ns1:export-ydpi="69" ns1:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <ns0:defs id="defs2">
+    <ns0:linearGradient id="linearGradient5043" ns1:collect="always">
+      <ns0:stop id="stop5041" offset="0" style="stop-color:#ecbca4;stop-opacity:1" />
+      <ns0:stop id="stop5039" offset="1" style="stop-color:#feffeb;stop-opacity:1;" />
+    </ns0:linearGradient>
+    <ns0:linearGradient gradientUnits="userSpaceOnUse" id="linearGradient5045" x1="250.16428" x2="250.16428" y1="3.5133791" y2="282.54276" ns1:collect="always" ns3:href="#linearGradient5043" />
+  </ns0:defs>
+  <ns2:namedview bordercolor="#000000" borderlayer="true" borderopacity="1" id="base" pagecolor="#ffffff" showgrid="false" showguides="false" units="px" ns1:current-layer="layer1" ns1:cx="1028.2293" ns1:cy="929.75935" ns1:document-units="mm" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:showpageshadow="false" ns1:snap-global="false" ns1:window-height="740" ns1:window-maximized="1" ns1:window-width="1366" ns1:window-x="0" ns1:window-y="0" ns1:zoom="0.24748737">
+    <ns2:guide id="guide4560" orientation="1,0" position="-79.375,40.82143" ns1:locked="false" />
+  </ns2:namedview>
+  <ns0:metadata id="metadata5">
+    <rdf:RDF>
+      <ns5:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </ns5:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g id="layer3" ns1:groupmode="layer" ns1:label="Background" />
+  </ns0:svg>

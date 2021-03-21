@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="100%"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 158.75 158.75001"
+   width="100%"
+   sodipodi:docname="Sun.svg"
+   inkscape:export-filename="D:\WALLPAPER\desert vector.png"
+   inkscape:export-xdpi="69"
+   inkscape:export-ydpi="69"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5043"
+       inkscape:collect="always">
+      <stop
+         id="stop5041"
+         offset="0"
+         style="stop-color:#ecbca4;stop-opacity:1" />
+      <stop
+         id="stop5039"
+         offset="1"
+         style="stop-color:#feffeb;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5045"
+       x1="250.16428"
+       x2="250.16428"
+       y1="3.5133791"
+       y2="282.54276"
+       inkscape:collect="always"
+       xlink:href="#linearGradient5043" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#000000"
+     borderlayer="true"
+     borderopacity="1"
+     id="base"
+     pagecolor="#ffffff"
+     showgrid="false"
+     showguides="false"
+     units="px"
+     inkscape:current-layer="layer8"
+     inkscape:cx="969.73449"
+     inkscape:cy="374.22551"
+     inkscape:document-units="mm"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:showpageshadow="false"
+     inkscape:snap-global="false"
+     inkscape:window-height="740"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:zoom="0.35">
+    <sodipodi:guide
+       id="guide4560"
+       orientation="1,0"
+       position="-79.375,40.82143"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer8"
+     inkscape:groupmode="layer"
+     inkscape:label="Sun"
+     style="display:inline"
+     transform="translate(0,-127)">
+    <circle
+       cx="80.130951"
+       cy="208.64287"
+       id="path4578"
+       r="71.815475"
+       style="opacity:0.98000004;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.22941184;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+  </g>
+</svg>
