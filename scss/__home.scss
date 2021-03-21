@@ -93,16 +93,9 @@ body {
         width: 100%;
         height: 100%;
         position: absolute;
+        transition: transform 50ms linear;
+        will-change: transform;
     }
-    // &--1 {
-    //     transform: scale(1);
-    // }
-    // &--2 {
-    //     transform: scale(1.2);
-    // }
-    // &--3 {
-    //     transform: scale(1.4);
-    // }
 
     @media only screen and (max-width: 600px) {
         width: 15rem;
@@ -176,7 +169,6 @@ body {
         height: 10rem;
     }
     @media only screen and (max-width: 900px) and (orientation: landscape) {
-        width: 10rem;
         height: 10rem;
     }
 }
@@ -207,6 +199,16 @@ body {
         left: -20%;
         top: 7%;
         transform: scale(2);
+    }
+
+    @media only screen and (max-width: 600px) {
+        height: 15rem;
+    }
+    @media only screen and (max-width: 400px) {
+        height: 10rem;
+    }
+    @media only screen and (max-width: 900px) and (orientation: landscape) {
+        height: 10rem;
     }
 }
 

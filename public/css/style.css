@@ -88,7 +88,9 @@ body {
   .sun svg {
     width: 100%;
     height: 100%;
-    position: absolute; }
+    position: absolute;
+    transition: transform 50ms linear;
+    will-change: transform; }
   @media only screen and (max-width: 600px) {
     .sun {
       width: 15rem;
@@ -152,7 +154,6 @@ body {
       height: 10rem; } }
   @media only screen and (max-width: 900px) and (orientation: landscape) {
     .cloud {
-      width: 10rem;
       height: 10rem; } }
 
 .cloud-back {
@@ -178,6 +179,15 @@ body {
     left: -20%;
     top: 7%;
     transform: scale(2); }
+  @media only screen and (max-width: 600px) {
+    .cloud-back {
+      height: 15rem; } }
+  @media only screen and (max-width: 400px) {
+    .cloud-back {
+      height: 10rem; } }
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    .cloud-back {
+      height: 10rem; } }
 
 .shooting {
   width: 12%;
