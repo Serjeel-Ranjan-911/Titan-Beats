@@ -8,16 +8,42 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
+:root {
+  --page-color: #ebecf1;
+  --shadow-up: 4.5px 4.5px 9px #cbcbcb, -4.5px -4.5px 9px #ffffff;
+  --shadow-down: inset 4.5px 4.5px 9px #cbcbcb, inset -4.5px -4.5px 9px #ffffff; }
+
 body {
-  font-family: 'Roboto Slab', serif;
-  background-color: #EBECF1;
-  min-height: 100vh; }
+  font-family: "Roboto Slab", serif;
+  background-color: var(--page-color);
+  min-height: 100vh;
+  position: relative; }
+
+.theme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 5rem;
+  height: 5rem; }
+  .theme__icon {
+    background-color: #008cff;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 50%;
+    transition: all 0.2s; }
+    .theme__icon:hover {
+      transform: scale(1.3); }
+    .theme__icon:active {
+      background-color: #39a6ff;
+      transform: scale(1.1); }
 
 .heading {
-  color: #EB5160;
+  color: #eb5160;
   margin: 0 auto;
   text-align: center;
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  text-transform: uppercase; }
 
 .row {
   display: flex;
@@ -28,40 +54,41 @@ body {
 .box {
   flex: 0 0 25%;
   height: auto;
-  background-color: #EBECF1;
-  box-shadow: 4.5px 4.5px 9px #CBCBCB, -4.5px -4.5px 9px #FFFFFF;
+  background-color: var(--page-color);
+  box-shadow: var(--shadow-up);
   margin: 1rem;
-  transition: all .3s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: stretch; }
   .box:active {
-    box-shadow: inset 4.5px 4.5px 9px #CBCBCB, inset -4.5px -4.5px 9px #FFFFFF; }
+    box-shadow: var(--shadow-down); }
     .box:active .icon {
       transform: translateY(0.3rem) scale(0.95); }
       .box:active .icon__image {
-        background-color: #eb7581; }
+        background-color: #39a6ff; }
       .box:active .icon h3 {
-        color: #eb7581; }
+        color: #39a6ff; }
 
 .icon {
   width: 100%;
   height: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: all .1s;
-  color: #EB5160; }
+  transition: all 0.1s;
+  color: #eb5160; }
   .icon__image {
     margin: 0 auto;
     width: 50%;
     padding-bottom: 50%;
     height: auto;
     display: inline-block;
-    background-color: #EB5160; }
+    background-color: #008cff; }
   .icon h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    color: #008cff; }
