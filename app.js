@@ -11,6 +11,8 @@ app.set("views", "views");
 const router = express.Router();
 
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use(route);
 
