@@ -1,7 +1,7 @@
 //animating shooting star
 
 const spawnShootingStar = () => {
-    const hold = `<div class="shooting"><img class="shooting-star" src="css/svg/layers${
+    const hold = `<div class="shooting"><img class="shooting-star" src="/css/svg/layers${
         window.theme === "dark" ? "_night" : ""
     }/shootingStar.svg" alt="shootingStar" /></div>`;
 

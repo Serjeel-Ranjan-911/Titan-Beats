@@ -17,47 +17,47 @@ const changeTheme = () => {
     let shootingStar = document.querySelectorAll(".shooting-star");
 
     if (window.theme === "light") {
-        btn.src = "css/logo/dark.png";
+        btn.src = "/css/logo/dark.png";
         window.theme = "dark";
 
-        Back.src = "css/svg/layers_night/Back.svg";
-        Middle.src = "css/svg/layers_night/Middle.svg";
-        Front.src = "css/svg/layers_night/Front.svg";
-        mountains.src = "css/svg/layers_night/Mountains.svg";
-        sky.src = "css/svg/layers_night/Sky.svg";
+        Back.src = "/css/svg/layers_night/Back.svg";
+        Middle.src = "/css/svg/layers_night/Middle.svg";
+        Front.src = "/css/svg/layers_night/Front.svg";
+        mountains.src = "/css/svg/layers_night/Mountains.svg";
+        sky.src = "/css/svg/layers_night/Sky.svg";
 
         sun.style.color = "rgba(251, 255, 0, 0.342)";
 
         cloud.forEach(item => {
-            item.setAttribute("xlink:href", "css/svg/layers_night/Clouds.svg#svg8");
+            item.setAttribute("xlink:href", "/css/svg/layers_night/Clouds.svg#svg8");
         });
 
         cloudBack.forEach(item => {
-            item.setAttribute("xlink:href", "css/svg/layers_night/CloudFar.svg#svg8");
+            item.setAttribute("xlink:href", "/css/svg/layers_night/CloudFar.svg#svg8");
         });
         shootingStar.forEach(item => {
-            item.setAttribute("src", "css/svg/layers_night/shootingStar.svg");
+            item.setAttribute("src", "/css/svg/layers_night/shootingStar.svg");
         });
     } else {
-        btn.src = "css/logo/light.png";
+        btn.src = "/css/logo/light.png";
         window.theme = "light";
 
-        Back.src = "css/svg/layers/Back.svg";
-        Middle.src = "css/svg/layers/Middle.svg";
-        Front.src = "css/svg/layers/Front.svg";
-        mountains.src = "css/svg/layers/Mountains.svg";
-        sky.src = "css/svg/layers/Sky.svg";
+        Back.src = "/css/svg/layers/Back.svg";
+        Middle.src = "/css/svg/layers/Middle.svg";
+        Front.src = "/css/svg/layers/Front.svg";
+        mountains.src = "/css/svg/layers/Mountains.svg";
+        sky.src = "/css/svg/layers/Sky.svg";
 
         sun.style.color = "rgba(241, 241, 241, 0.342)";
 
         cloud.forEach(item => {
-            item.setAttribute("xlink:href", "css/svg/layers/Clouds.svg#svg8");
+            item.setAttribute("xlink:href", "/css/svg/layers/Clouds.svg#svg8");
         });
         cloudBack.forEach(item => {
-            item.setAttribute("xlink:href", "css/svg/layers/CloudFar.svg#svg8");
+            item.setAttribute("xlink:href", "/css/svg/layers/CloudFar.svg#svg8");
         });
         shootingStar.forEach(item => {
-            item.setAttribute("src", "css/svg/layers/shootingStar.svg");
+            item.setAttribute("src", "/css/svg/layers/shootingStar.svg");
         });
     }
 };
