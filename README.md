@@ -1,4 +1,4 @@
-#Titan Beats 
+ <h1 align="center">Titan Beats</h1>
 
 ## Contributors
 
@@ -66,7 +66,7 @@ Waiting for their music API.
 <hr>
 
 <p align="center">
-  <img src="https://i.gifer.com/VR0F.gif" width="350" height="350"/>
+  <img src="./gif/VR0F.gif" width="350" height="350"/>
 </p>
 
 Happy Coding!
