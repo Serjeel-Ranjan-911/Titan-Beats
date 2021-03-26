@@ -5,8 +5,6 @@
     "license": "MIT",
     "scripts": {
         "compile:sass": "node-sass menu.scss public/css/menu.css -w",
-        "devserver": "live-server",
-        "start-server": "npm-run-all --parallel devserver compile:sass",
         "node-server": "nodemon app.js",
         "start": "node app.js"
     },
