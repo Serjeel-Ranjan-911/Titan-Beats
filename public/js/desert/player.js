@@ -1,10 +1,11 @@
 const getPath = (cb, mood) => {
-    let data = { mood: mood };
-
     fetch("/music", {
-        method: "POST",
-        body: data,
-        dataType: "json",
+        method: "post",
+        headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ mood: mood }),
     })
         .then(res => {
             return res.json();

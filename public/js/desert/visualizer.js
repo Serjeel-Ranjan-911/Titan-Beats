@@ -11,7 +11,7 @@ window.onload = function () {
     const sun2 = document.querySelector(".audioCircle2");
     const sun3 = document.querySelector(".audioCircle3");
 
-    audio.src = "/introTune/Liquid_Logo_Intro_Music.mp3";
+    audio.src = "/introTune/beep-28.mp3";
     audio.play();
     var callBack;
     // audio.onended = () => {
@@ -28,7 +28,7 @@ window.onload = function () {
         //audio.src = URL.createObjectURL(files[0]);
         const mood = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
         getPath(path => {
-            audio.src = "/music/" + path;
+            audio.src = `/music/${mood}/` + path;
             audio.load();
             audio.play();
         }, mood);
