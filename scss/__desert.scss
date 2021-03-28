@@ -55,16 +55,20 @@ body {
         position: absolute;
         top: 1.5rem;
         left: 0.5rem;
-        width: 10%;
+        min-width: 10%;
         height: auto;
         backdrop-filter: blur(5px);
-        background-color: rgba(255, 255, 255, 0.247);
+        //background-color: rgba(255, 255, 255, 0.247);
+        background-image: linear-gradient(180deg, rgba(25, 0, 116, 0.123), rgba(158, 13, 13, 0.205));
         border-radius: 5px;
+        box-shadow: 0 4px 6px rgba($color: #000000, $alpha: 0.2);
         a {
             text-decoration: none;
             color: #fff;
+            padding: 0 12px;
             &:hover {
                 color: rgb(231, 230, 230);
+                text-decoration: underline;
             }
         }
         li {

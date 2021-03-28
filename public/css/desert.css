@@ -57,16 +57,19 @@ body {
   position: absolute;
   top: 1.5rem;
   left: 0.5rem;
-  width: 10%;
+  min-width: 10%;
   height: auto;
   backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, 0.247);
-  border-radius: 5px; }
+  background-image: linear-gradient(180deg, rgba(25, 0, 116, 0.123), rgba(158, 13, 13, 0.205));
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); }
   .menu ol a {
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    padding: 0 12px; }
     .menu ol a:hover {
-      color: #e7e6e6; }
+      color: #e7e6e6;
+      text-decoration: underline; }
   .menu ol li {
     display: block;
     padding: 0.5rem 0; }
