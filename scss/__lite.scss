@@ -1,0 +1,44 @@
+body {
+    background-color: #040f16;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster Two", cursive;
+}
+
+.quoteBox {
+    width: 80%;
+    height: auto;
+    p {
+        display: block;
+    }
+}
+
+#text {
+    color: #d6d1cd;
+    font-weight: 400;
+    font-size: 3rem;
+    @media only screen and (max-width: 600px) {
+        font-size: 2.5rem;
+    }
+    @media only screen and (max-width: 400px) {
+        font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 900px) and (orientation: landscape) {
+        font-size: 1.5rem;
+    }
+}
+
+#author {
+    color: #ffff41;
+    text-align: right;
+    font-weight: 700;
+    font-size: 2rem;
+    @media only screen and (max-width: 600px) {
+        font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 400px) {
+        font-size: 1rem;
+    }
+}

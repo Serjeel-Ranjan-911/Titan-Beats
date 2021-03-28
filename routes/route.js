@@ -7,7 +7,15 @@ router.get("/", (req, res, next) => {
 });
 
 router.get("/desert/:mood", (req, res, next) => {
-    res.render("desert");
+    res.render("desert", {
+        mood: req.params.mood,
+    });
+});
+
+router.get("/lite/:mood", (req, res, next) => {
+    res.render("lite", {
+        mood: req.params.mood,
+    });
 });
 
 router.post("/music", (req, res, next) => {

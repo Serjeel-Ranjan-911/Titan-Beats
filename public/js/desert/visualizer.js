@@ -26,7 +26,8 @@ window.onload = function () {
     const player = function () {
         //var files = this.files;
         //audio.src = URL.createObjectURL(files[0]);
-        const mood = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
+        //const mood = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
+        const mood = document.getElementById("getMood").value;
         getPath(path => {
             audio.src = `/music/${mood}/` + path;
             audio.load();
