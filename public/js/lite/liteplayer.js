@@ -7,7 +7,9 @@ window.onload = function () {
     audio.play();
     changeQuote();
     const player = function () {
-        const mood = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
+        //const mood = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
+        const mood = document.getElementById("getMood").value;
+
         getPath(path => {
             audio.src = `/music/${mood}/` + path;
             audio.load();

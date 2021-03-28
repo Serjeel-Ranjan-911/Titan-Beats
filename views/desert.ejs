@@ -10,11 +10,12 @@
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> -->
     </head>
     <body>
+        <input id="getMood" type="hidden" value="<%=mood%>" />
         <div class="menu">
             <img src="/css/logo/menu.svg" alt="" />
             <ol class="sub-menu">
                 <li class="menu-item"><a href="https://github.com/Serjeel-Ranjan-911/Titan-Beats">Github</a></li>
-                <li class="menu-item"><a href="/lite/bright">Lite</a></li>
+                <li class="menu-item"><a href="/lite/<%=mood%>">Lite</a></li>
                 <li class="menu-item"><a href="#">Enjoy!</a></li>
             </ol>
         </div>
