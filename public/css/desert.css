@@ -34,6 +34,43 @@ body {
     .theme-btn img:hover {
       transform: scale(1.2); }
 
+.menu:hover ol {
+  display: block; }
+
+.menu img {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  z-index: 999;
+  transition: all 0.2s;
+  -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.4)); }
+  .menu img:hover {
+    transform: scale(1.2); }
+
+.menu ol {
+  z-index: 1000;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+  width: 10%;
+  height: auto;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.247);
+  border-radius: 5px; }
+  .menu ol a {
+    text-decoration: none;
+    color: #fff; }
+    .menu ol a:hover {
+      color: #e7e6e6; }
+  .menu ol li {
+    display: block;
+    padding: 0.5rem 0; }
+
 .screen-btn {
   position: absolute;
   bottom: 1rem;

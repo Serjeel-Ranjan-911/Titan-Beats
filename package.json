@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "compile:sass": "node-sass lite.scss public/css/lite.css -w",
+        "compile:sass": "node-sass desert.scss public/css/desert.css -w",
         "node-server": "nodemon app.js",
         "start": "node app.js"
     },
