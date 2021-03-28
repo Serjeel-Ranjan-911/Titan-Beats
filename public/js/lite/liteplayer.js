@@ -1,0 +1,22 @@
+import { getPath } from "../desert/player.js";
+import { changeQuote } from "./quote.js";
+
+window.onload = function () {
+    var audio = document.getElementById("audio");
+    audio.src = "/introTune/beep-28.mp3";
+    audio.play();
+    changeQuote();
+    const player = function () {
+        const mood = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
+        getPath(path => {
+            audio.src = `/music/${mood}/` + path;
+            audio.load();
+            audio.play();
+            changeQuote();
+        }, mood);
+
+        audio.play();
+    };
+
+    audio.addEventListener("ended", player);
+};

@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "compile:sass": "node-sass menu.scss public/css/menu.css -w",
+        "compile:sass": "node-sass lite.scss public/css/lite.css -w",
         "node-server": "nodemon app.js",
         "start": "node app.js"
     },

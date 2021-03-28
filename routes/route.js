@@ -10,6 +10,10 @@ router.get("/desert/:mood", (req, res, next) => {
     res.render("desert");
 });
 
+router.get("/lite/:mood", (req, res, next) => {
+    res.render("lite");
+});
+
 router.post("/music", (req, res, next) => {
     console.log(req.body.mood);
     let mood = req.body.mood;
