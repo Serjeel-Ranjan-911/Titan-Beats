@@ -1,5 +1,12 @@
  <h1 align="center">Titan Beats</h1>
 
+![APM](https://img.shields.io/apm/l/npm)
+![GitHub issues](https://img.shields.io/github/issues-raw/Serjeel-Ranjan-911/Titan-Beats)
+![GitHub contributors](https://img.shields.io/github/contributors/Serjeel-Ranjan-911/Titan-Beats)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
+
+[Heroku](titan-beats.herokuapp.com)
+
 ## Contributors
 
 1. Clone the Repo
@@ -17,27 +24,21 @@ npm i
 3. Starting Node Server
 
 ```sh
-npm run node-server
+npm start
 ```
 
 4. Open broswer at 127.0.0.1:3000
 
-### For working on front end
+### For working
 
 run these two commands simultaneously on two consoles
 
 ```sh
-npm run compile:sass
+npm run watch
 npm run node-server
 ```
 
-### Be careful while compiling sass
-
-    "compile:sass": "node-sass menu.scss public/css/menu.css -w"
-
-    "compile:sass": "node-sass desert.scss public/css/desert.css -w"
-
-In package.json make sure to set the entry point and exit point for sass correctly before running compile:sass command.
+This will start a backend server while monitoring all the sass files.
 
 ### Before making a pull request
 
