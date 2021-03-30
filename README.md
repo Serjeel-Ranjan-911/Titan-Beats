@@ -29,13 +29,12 @@ npm start
 
 4. Open broswer at 127.0.0.1:3000
 
-### For working
+### For development
 
-run these two commands simultaneously on two consoles
+run this single command
 
 ```sh
-npm run watch
-npm run node-server
+npm run dev
 ```
 
 This will start a backend server while monitoring all the sass files.

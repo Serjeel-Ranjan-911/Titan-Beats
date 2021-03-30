@@ -7,6 +7,7 @@
         "watch": "onchange \"scss/*.scss\" -- npm run compile:sass",
         "compile:sass": "node-sass desert.scss public/css/desert.css && node-sass lite.scss public/css/lite.css && node-sass menu.scss public/css/menu.css",
         "node-server": "nodemon app.js",
+        "dev": "npm-run-all --parallel watch node-server",
         "start": "node app.js"
     },
     "devDependencies": {
