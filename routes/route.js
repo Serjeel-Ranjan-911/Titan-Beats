@@ -25,8 +25,8 @@ router.post("/music", (req, res, next) => {
     res.send(JSON.stringify({ path: files[parseInt(Math.random() * files.length)] }));
 });
 
-router.get("/.well-known/pki-validation/63F92C3136A0ED7B8730AB065FE87B1A.txt", (req,res,next)=> {
-    res.send("D3C18673A523391C3B9D755CACD302B4C9BB62F9F0E21F095173254C36130D5Fcomodoca.comb0f3f0108b7f340");
+router.get("/.well-known/pki-validation/95E9C10D8B87A486952201BB264B324C.txt", (req,res,next)=> {
+    res.download('./public/ssl/95E9C10D8B87A486952201BB264B324C.txt');
 });
 
 module.exports = router;
