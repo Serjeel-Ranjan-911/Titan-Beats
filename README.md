@@ -59,7 +59,7 @@ eg. fixes #30
 **Note:**
 
 The App currently serves music from server.  
-Special thanks to [Pixabay](https://pixabay.com).
+Special thanks to [Pixabay](www.pixabay.com).
 
 Waiting for their music API.
 
