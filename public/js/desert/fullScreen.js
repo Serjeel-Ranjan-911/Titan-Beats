@@ -23,7 +23,7 @@ requestFullScreen = () => {
 const exitHandler = () => {
     if (!(document.webkitIsFullScreen || document.mozFullScreen || document.msFullscreenElement)) {
         console.log("out now");
-        btnScreen.style.display = "visible";
+        btnScreen.style.display = "inline";
     }
 };
 
