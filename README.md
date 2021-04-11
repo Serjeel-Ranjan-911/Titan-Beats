@@ -5,7 +5,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Serjeel-Ranjan-911/Titan-Beats)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-[Heroku](titan-beats.herokuapp.com)
+[Heroku](https://titan-beats.herokuapp.com)
 
 ## Contributors
 
