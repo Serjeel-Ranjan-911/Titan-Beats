@@ -71,6 +71,7 @@ a{
 }
 
 .box {
+    position: relative;
     flex: 0 0 25%;
     height: auto;
     background-color: var(--page-color);
@@ -117,5 +118,18 @@ a{
         font-weight: 900;
         letter-spacing: 2px;
         color: $secondary;
+    }
+}
+
+.tagBox{
+    position: absolute;
+    transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    top: -.6rem;
+    left: -.6rem;
+    #tag{
+        color: $primary;
+        font-weight:bold;
+        font-size: 1.2rem;
     }
 }
