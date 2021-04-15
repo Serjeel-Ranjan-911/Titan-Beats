@@ -9,6 +9,7 @@ body {
   box-sizing: border-box; }
 
 :root {
+  font-size: 16px;
   --page-color: #ebecf1;
   --shadow-up: 4.5px 4.5px 9px #cbcbcb, -4.5px -4.5px 9px #ffffff;
   --shadow-down: inset 4.5px 4.5px 9px #cbcbcb, inset -4.5px -4.5px 9px #ffffff; }
@@ -49,14 +50,21 @@ a {
   text-transform: uppercase; }
 
 .row {
+  width: 60%;
+  max-width: 60%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto; }
+  @media (max-width: 768px) {
+    .row {
+      width: 90%;
+      max-width: 90%; } }
 
 .box {
   position: relative;
-  flex: 0 0 25%;
+  min-width: 33%;
+  max-width: 33%;
   height: auto;
   background-color: var(--page-color);
   box-shadow: var(--shadow-up);
@@ -65,10 +73,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: stretch; }
+  @media (max-width: 768px) {
+    .box {
+      min-width: 100%;
+      max-width: 100%; } }
   .box:active {
     box-shadow: var(--shadow-down); }
     .box:active .icon {
-      transform: translateY(0.3rem) scale(0.95); }
+      width: 100%; }
       .box:active .icon__image {
         background-color: #39a6ff; }
       .box:active .icon h3 {
@@ -99,10 +111,10 @@ a {
 
 .tagBox {
   position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
   transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  top: -.6rem;
-  left: -.6rem; }
+  -o-transform: rotate(-45deg); }
   .tagBox #tag {
     color: #eb5160;
     font-weight: bold;
